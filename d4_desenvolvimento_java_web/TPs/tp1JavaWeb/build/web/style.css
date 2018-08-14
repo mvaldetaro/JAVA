@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+html {
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, .87);
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    padding: 40px 16px 20px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.row {
+    clear: both;
+    margin-bottom: 16px;
+    overflow: auto;
+}
+
+.col-25,
+.col-75,
+.col-100{
+    float: left;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+
+.col-25 {
+    width: 33%;
+    text-align: right;
+}
+
+.col-75 {
+    width: 66%;
+    text-align: left;
+}
+
+.col-100 {
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    padding: 8px;
+    font-size: 21px;
+}
+
+input[type = "text"],
+input[type = "password"]{
+    border-bottom: 2px solid rgba(0, 0, 0, .87);
+    padding: 8px;
+    font-size: 21px;
+    width: 55%;
+}
+
+input[type = "text"]:focus,
+input[type = "password"]:focus {
+   border-bottom: 2px solid #2196F3;
+   outline: none;
+}
+
+input[type = "submit"] {   
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: 21px;
+    background-color: #2196F3;
+    color: rgba(255,255, 255, .87);
+}
+
+input[type = "submit"]:hover {
+    background-color: #42A5F5;
+} 
+
+footer {
+    
+    text-align: center;
+}
+

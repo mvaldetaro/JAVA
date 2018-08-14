@@ -1,0 +1,137 @@
+/* 
+    Created on : 12/11/2016, 17:04:05
+    Author     : Magno
+*/
+
+body {
+    padding-top: 64px;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 64px;
+    max-height: 1000px;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-property: max-height,box-shadow;
+    color: rgba(255, 255, 255, .87);
+    background: #0097A7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;    
+}
+
+.title {
+    display: block;
+    position: relative;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    line-height: 64px;
+    letter-spacing: .02em;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    position: relative;
+}
+
+.ribbon {
+    background: #00BCD4;
+    height: 40vh;
+}
+
+.shadow {
+   box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2); 
+}
+
+.text-color {
+    color: #424242;
+}
+
+.bg-box {
+    background-color: #fff;
+}
+
+.box{
+    border-radius: 2px;
+    padding: 80px 56px;
+    margin-bottom: 80px;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: -35vh;
+}
+
+.menu-list {
+    display: block;
+    padding: 8px 0;
+    list-style: none;
+}
+
+.menu-list-item {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1;
+    min-height: 48px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 16px;
+    cursor: default;
+    color: rgba(0,0,0,.87);
+    overflow: hidden;
+}
+
+.menu-list-item-content { 
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.menu-list-item .icon {
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    box-sizing: border-box;
+    color: #757575;
+    margin-right: 32px;
+}
+
+
+.btn-primary {
+    color: rgba(255,255,255,.87);
+    background-color: #FFA000;
+    border-color:#FFA000;
+    transition: all cubic-bezier(.62,.28,.23,.99) 0.7s;
+}
+
+.btn-primary:hover {
+    color: rgba(255,255,255,.87);
+    background-color: #FBC02D;
+    border-color:#FBC02D;
+}

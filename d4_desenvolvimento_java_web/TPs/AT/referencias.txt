@@ -1,0 +1,10 @@
+Referencias:
+
+http://stackoverflow.com/questions/2204870/how-to-get-domain-url-and-application-name
+http://www.tutorialspoint.com/jsp/
+
+Frameworks e bibliotecas:
+
+http://getbootstrap.com/
+https://material.io/guidelines/
+https://material.io/icons/

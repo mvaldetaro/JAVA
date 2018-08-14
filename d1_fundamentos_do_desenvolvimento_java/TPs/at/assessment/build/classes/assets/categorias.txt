@@ -1,0 +1,8 @@
+1 Abertos 
+2 Filmes 
+3 Séries 
+4 Esportes 
+5 Infantis 
+6 Cultura 
+7 Notícias 
+8 Variedades 

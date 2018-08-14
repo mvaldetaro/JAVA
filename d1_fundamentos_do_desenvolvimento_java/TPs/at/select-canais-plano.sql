@@ -1,0 +1,1 @@
+programaselect * from plano inner join plano_canal inner join canal on Plano_idPlano = idPlano and Canal_idCanal = idCanal where idPlano = 2

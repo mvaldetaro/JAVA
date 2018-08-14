@@ -1,0 +1,1 @@
+select canal.idCanal, canal.nome, canal.numero, categoria.nome from canal inner join canal_categoria inner join categoria on canal.idCanal = Canal_idCanall and idCategoria = Categoria_idCategoria where idCanal = 1

@@ -1,0 +1,29 @@
+package br.com.infnet;
+
+import java.util.Scanner;
+
+public class Calculadora {
+	public static void main(String[] args){
+		
+		Scanner in = new Scanner(System.in);
+		double num1, num2, soma, subtracao, multiplicacao, divisao;
+		
+		System.out.println("Insira um número");
+		num1 = in.nextDouble();
+		
+		System.out.println("Insira outro número");
+		num2 = in.nextDouble();
+		
+		soma  =  num1 + num2;
+		System.out.println("A soma é: " + soma );
+		
+		subtracao  =  num1 - num2;
+		System.out.println("A subtração é: " + subtracao );
+		
+		multiplicacao  =  num1 * num2;
+		System.out.println("A multiplicacao é: " + multiplicacao );
+		
+		divisao  =  num1 / num2;
+		System.out.println("A divisao é: " + divisao );
+	}
+}
